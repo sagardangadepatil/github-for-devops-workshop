@@ -1,0 +1,32 @@
+Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\resources\app\o...
+   2 ls -l
+   3 dir
+   4 git --version
+   5 git init
+   6 git status
+   7 dir
+   8 dir .\.git\
+   9 git status
+  10 git status
+  11 git add .\testing.py
+  12 git status
+  13 git rm --cached .\testing.py
+  14 git status
+  15 git add .\testing.py
+  16 git staus
+  17 git status
+  18 git commit -m "added testing files"
+  19 git status
+  20 git remote
+  21 git remote add origin https://github.com/sagardangadepatil/github-for-devops-workshop.git
+  22 git remote
+  23 git remote origin
+  24 git remote -v
+  25 git branch
+  26 git branch
+  27 git remote -v
+  28 git push remote origin
+  29 git remote set-url origin https://<<ATP_TOKEN>>@github.com/sagardangadepatil/github-for-devops-workshop.git
+
