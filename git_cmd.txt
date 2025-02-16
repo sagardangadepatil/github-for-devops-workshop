@@ -15,10 +15,19 @@ Git CommandLine
 
 #If Git not installed then need to initiate git on directory
 	#This need to perform once in one project
+	#Below cmd create one .git hidden folder on same directory once hit cmd.
 
 	git init
-	#Above cmd create one .git hidden folder on same directory
+	
 
+#Now you can check your config settings
+
+	git config --list
+
+#On local repository we need to define username and email id to define who is going to perform changes
+
+	git config --global user.email "your-email@example.com"
+	git config --global user.name "Your Name"
 
 #To check if any untracked file present on folder
 
@@ -33,6 +42,9 @@ Git CommandLine
 	#To untrack all files to staging area
 	git add .
 
+	#To stage multiple files or specific files
+	git add <file1> <file2>
+	
 #If we need to back untracked file from staging area to untrack one.
 
 	git rm --cached .\testing.py
@@ -58,6 +70,11 @@ Git CommandLine
 #Once git initiated master or main branch created by default, we can check current branch
 
 	git branch
+
+#Create new branch
+
+	git branch <branch_name>
+	git branch bugfix
 
 #Changing branch 
 
