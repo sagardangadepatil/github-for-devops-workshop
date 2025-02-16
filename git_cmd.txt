@@ -27,8 +27,12 @@ Id CommandLine
 
 #To track untracked file to staging area
 
+	git add <file_name>
 	git add .\testing.py
 	git status
+
+	#To untrack all files to staging area
+	git add .
 
 #If we need to back untracked file from staging area to untrack one.
 
@@ -56,13 +60,22 @@ Id CommandLine
 
 	git branch
 
+#Changing branch 
+
+	git checkout <branch_name>
+
+#Create and switch to that branch
+#If branch_name present then it directly switch if not present it create and switch to mentioned branch_name
+
+	git switch -c <branch_name>
+	git switch -c bugfix
+
 #Pushing file from local repository to remote repository
 
 	git push remote origin
 
 #Setting correct origin url on GitHub 
-
-git remote set-url origin https://<<ATP_TOKEN>>@github.com/sagardangadepatil/github-for-devops-workshop.git
+	git remote set-url origin https://<<ATP_TOKEN>>@github.com/sagardangadepatil/github-for-devops-workshop.git
 
 
 
