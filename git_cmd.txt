@@ -1,32 +1,68 @@
 Id CommandLine
-  -- -----------
-   1 try { . "c:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\resources\app\o...
-   2 ls -l
-   3 dir
-   4 git --version
-   5 git init
-   6 git status
-   7 dir
-   8 dir .\.git\
-   9 git status
-  10 git status
-  11 git add .\testing.py
-  12 git status
-  13 git rm --cached .\testing.py
-  14 git status
-  15 git add .\testing.py
-  16 git staus
-  17 git status
-  18 git commit -m "added testing files"
-  19 git status
-  20 git remote
-  21 git remote add origin https://github.com/sagardangadepatil/github-for-devops-workshop.git
-  22 git remote
-  23 git remote origin
-  24 git remote -v
-  25 git branch
-  26 git branch
-  27 git remote -v
-  28 git push remote origin
-  29 git remote set-url origin https://<<ATP_TOKEN>>@github.com/sagardangadepatil/github-for-devops-workshop.git
+  -------------
+
+
+#To check files in Linux
+
+	ls -l
+
+#To check files in Windows
+
+	dir
+
+#To check git installed version
+
+	git --version
+
+#If Git not installed then need to initiate git on directory
+#This need to perform once in one project
+
+	git init
+#Above cmd create one .git hidden folder on same directory
+
+
+#To check if any untracked file present on folder
+
+	git status
+
+#To track untracked file to staging area
+
+	git add .\testing.py
+	git status
+
+#If we need to back untracked file from staging area to untrack one.
+
+	git rm --cached .\testing.py
+	git status
+
+#To commit staging file with message
+
+	git commit -m "added testing files"
+	git status
+
+#To check remote GitHub to track on repository
+
+	git remote -v
+
+#To add remote from GitHub with specific repository
+
+	git remote add origin https://github.com/sagardangadepatil/github-for-devops-workshop.git
+
+	git remote
+	git remote origin
+	git remote -v
+
+#Once git initiated master or main branch created by default, we can check current branch
+
+	git branch
+
+#Pushing file from local repository to remote repository
+
+	git push remote origin
+
+#Setting correct origin url on GitHub 
+
+git remote set-url origin https://<<ATP_TOKEN>>@github.com/sagardangadepatil/github-for-devops-workshop.git
+
+
 
