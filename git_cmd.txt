@@ -1,6 +1,5 @@
-Id CommandLine
+Git CommandLine
   -------------
-
 
 #To check files in Linux
 
@@ -15,10 +14,10 @@ Id CommandLine
 	git --version
 
 #If Git not installed then need to initiate git on directory
-#This need to perform once in one project
+	#This need to perform once in one project
 
 	git init
-#Above cmd create one .git hidden folder on same directory
+	#Above cmd create one .git hidden folder on same directory
 
 
 #To check if any untracked file present on folder
@@ -65,7 +64,7 @@ Id CommandLine
 	git checkout <branch_name>
 
 #Create and switch to that branch
-#If branch_name present then it directly switch if not present it create and switch to mentioned branch_name
+	#If branch_name present then it directly switch if not present it create and switch to mentioned branch_name
 
 	git switch -c <branch_name>
 	git switch -c bugfix
