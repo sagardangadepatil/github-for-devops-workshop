@@ -44,7 +44,10 @@ Git CommandLine
 
 	#To stage multiple files or specific files
 	git add <file1> <file2>
-	
+
+# If we want to verify what changes are thre in staging area file and previous file
+	git diff
+
 #If we need to back untracked file from staging area to untrack one.
 
 	git rm --cached .\testing.py
