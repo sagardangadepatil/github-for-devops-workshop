@@ -1,5 +1,5 @@
 str1 = "Hello-World"
 str2 = "Good-Morning"
-print(str1[0])
-print(str2[-1])
-print(str1[0:4])
+print(str1[0])      # Printing first letter of string"
+print(str2[-1])     # Printing last letter of string"
+print(str1[0:5])    # Printing specific line or characters from the string"
