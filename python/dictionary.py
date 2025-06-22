@@ -1,3 +1,4 @@
+#Dictionary functions of Data types
 #A group of values within {}
 myDict = { 1: 'apple', 2: 'mango'}
 print(myDict)
@@ -8,4 +9,4 @@ print(myDist1)
 print("Dictionary with integer keys ", myDict)
 #Mixed keys - Dictionary with mixed keys
 myDist2 = {'name': "Jhon", "Hight in Cm": 160, "Weight in Pund": 105 }
-print("Dictionary with mixed keys ", myDist2)
+print("Dictionary with mixed keys ", myDist2) 
