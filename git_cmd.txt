@@ -1,17 +1,25 @@
+<<<<<<< HEAD
+
 Git CommandLine
   -------------
 
-#To check files in Linux
-
+#To check files in Linux / Windows
+	#In Linux
+	
 	ls -l
 
-#To check files in Windows
+	#In Windows
 
 	dir
+
+#To check files current working directory or folder or path
+
+	pwd
 
 #To check git installed version
 
 	git --version
+	git -v
 
 #If Git not installed then need to initiate git on directory
 	#This need to perform once in one project
@@ -23,6 +31,7 @@ Git CommandLine
 #Now you can check your config settings
 
 	git config --list
+		#Note exit from above list using enter then type q
 
 #On local repository we need to define username and email id to define who is going to perform changes
 
@@ -39,13 +48,14 @@ Git CommandLine
 	git add .\testing.py
 	git status
 
-	#To untrack all files to staging area
+	#To track all untrack files into staging area in one go.
 	git add .
 
-	#To stage multiple files or specific files
+	#To track multiple files or specific files into staging area.
 	git add <file1> <file2>
 
 # If we want to verify what changes are thre in staging area file and previous file
+
 	git diff
 
 #If we need to back untracked file from staging area to untrack one.
@@ -97,4 +107,5 @@ Git CommandLine
 	git remote set-url origin https://<<ATP_TOKEN>>@github.com/sagardangadepatil/github-for-devops-workshop.git
 
 
+>>>>>>> test
 
