@@ -15,6 +15,7 @@ print(b)
 
 # Heading2
 print("NumPy Array Inspection:")
+# Sub-points1
 print("Type-1 : Checking Size of Array")
 # Example-1
 c = np.array([[1,2,3], [4,5,6]])
@@ -32,6 +33,7 @@ print(d)
 print("Size of Array Example-2:")
 print(d.shape)
 
+# Sub-points2
 print("Type-2 : Resize of Array - using '.shape'")
 print("Resizing the Array - ([1,2,3]) in to 3x1 format")
 a.shape = (3,1)
@@ -43,6 +45,8 @@ print("Resizing the Array - ([[1,2,3,4],[5,6,7,8],[0,9,0,0]]) in to 4x3 format")
 d.shape = (4,3)     ##Trick is  x*y = Total number of elements in the array
 print(d) 
 
+
+# Sub-points3
 print("Type-3 : Return the dimention of Array - using '.ndim'")
 e = np.arange(24)
 print("Values of 24 from 0 using .arange")
@@ -64,6 +68,8 @@ print(g.size)
 print("Find the number of elements in the array - use np.size function for array ([[1,2,3,4],[5,6,7,8],[0,9,0,0]]):")
 print(d.size)
 
+
+# Sub-points4
 print("Type-4 : Find the datatype of Array - using 'np.dtype'")
 h = np.arange(24)
 print("print the datatype of 24 i.e. np.arange(24) is :")
