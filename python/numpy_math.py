@@ -20,7 +20,7 @@ c = int(np.sum([a,b]))
 #print(c)
 print("Addition of First Number and Second number is : ", c)
 print("Addition of Two Arrays with 2x2 format")
-print("First Array is [1,2], Second Array is [5,6]")
+print("If consider - First Array is [1,2], Second Array is [5,6]")
 c = np.sum([[1,2], [5,6]], axis= 0)  # axis = 0 represent addition of arrays column wise i.e. vertically.
 print("Addition of Array first number with first number of OTHER array and vice versa using axis =0 : ",c) 
 
@@ -87,3 +87,12 @@ d = np.diff([arr1, arr2], axis =1)  # Subtraction of array like first number wit
 print("Subtraction of array like first number with first number of other array :", d) 
 d = np.diff([arr1, arr2])  # Subtraction of array like first number with first number of other array
 print("Subtraction of array like first number with first number of other array :", d) 
+print("Multiplication of two arrays :-")
+e= np.multiply(arr1,arr2)
+print("Multiplication of entered array is :-", e)
+print("Exponent : ",np.exp(e))
+print("Square Root : ",np.sqrt(e))
+print("Sin : ",np.sin(e))
+print("Cos : ",np.cos(e))
+print("log : ",np.log(e))
+
