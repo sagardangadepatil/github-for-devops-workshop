@@ -24,3 +24,4 @@ print("\n\n","Displaying array with 4x4 format for 16 numbers is :", x)
 #Spliting the array
 print("\n\n","Spliting the array from second position is: \n",np.hsplit(x,2), '\n', '\n') # Spliting the array from second position
 print("\n\n","Spliting the array like first 3 columns in one array and remaining in next array :", np.hsplit(x,np.array([3])))
+
