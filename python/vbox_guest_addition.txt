@@ -1,0 +1,6 @@
+#Consider below mentioned cmds to run virtual box installed system into full screen mentioned
+
+dnf install tar bzip2 kernel-devel-$(uname -r) kernel-headers perl gcc make elfutils-libelf-devel
+cd /run/media/'whoami'/VB*
+./VBoxLinuxAdditions.run
+lsmod | grep vbox
