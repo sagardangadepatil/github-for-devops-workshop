@@ -95,4 +95,7 @@ print("Square Root : ",np.sqrt(e))
 print("Sin : ",np.sin(e))
 print("Cos : ",np.cos(e))
 print("log : ",np.log(e))
+print("Array Comparisum Element wise : ")
+e = np.equal(arr1,arr2)
+print("Array COmparisum - Element wise :", e)
 
